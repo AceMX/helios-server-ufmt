@@ -1,0 +1,35 @@
+# Para gerar o site estático: mkdocs build
+# Para rodar um servidor para testes: mkdocs serve
+
+site_name: e-Votação UFMT
+<<<<<<< HEAD:docs/sobre-src/mkdocs.yml
+site_description: 'Sobre o e-Votação'
+site_author: 'UFMT - Coordenação de Engenharia de Software'
+copyright: 'Copyright &copy; 2020 - UFMT'
+=======
+site_description: "Ajuda do e-Votação"
+site_author: "UFMT - Coordenação de Engenharia de Software"
+copyright: "Copyright &copy; 2020 - UFMT"
+>>>>>>> 44c9a4022cc8056f75f6c0537f5114a22265e68c:ajuda-src/mkdocs.yml
+# repo_url: http://www.ces.ufmt.br/CES/helios-server-ldap
+# repo_name: GOGs
+
+nav:
+<<<<<<< HEAD:docs/sobre-src/mkdocs.yml
+    - Sobre: index.md
+=======
+  - Como votar: index.md
+  - Servidores aposentados - Como criar um usuário: aposentado.md
+>>>>>>> 44c9a4022cc8056f75f6c0537f5114a22265e68c:ajuda-src/mkdocs.yml
+
+theme:
+  name: material
+  language: pt
+  logo: img/logo_vetor_fundo_branco_recortado.png
+  favicon: img/favicon.png
+  font:
+    text: Raleway
+  search:
+    language: pt
+extra_css:
+  - stylesheets/extra.css
